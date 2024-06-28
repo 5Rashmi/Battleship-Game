@@ -13,7 +13,7 @@ body {
     width: 1024px;
     height: 863px;
     margin: auto;
-    background: url("src/board.png") no-repeat;
+    background: url("board.png") no-repeat;
     background-size: cover;
   }
   div#messageArea {
@@ -56,13 +56,13 @@ body {
     font-size: 1em;
   }
   .hit {
-    background: url("src/ship.jpg") no-repeat center center;
+    background: url("ship.jpg") no-repeat center center;
     background-size: contain;
     width: 100%;
     height: 100%;
   }
   .miss {
-    background: url("src/miss.png") no-repeat center center;
+    background: url("miss.png") no-repeat center center;
     background-size: contain;
     width: 100%;
     height: 100%;
