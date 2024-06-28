@@ -2,7 +2,7 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items: center;
     height: 100vh;
     margin: 0;
@@ -69,20 +69,18 @@ body {
   }
   div#info {
     border: 1px solid white;
-    position: relative;
-    margin: 0px 3%;
+    margin: 10px 3%;
     box-shadow: 1px 0px 0px 1px white;
     padding: 10px 15px;
     box-sizing: border-box; 
-    scrollbar-width: 622px;
     }
 
-    #data {
+  #data {
     color: rgb(177, 212, 241);
-    font-size: 1.5rem;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    div#info #spantitle{
-        color: brown;
-        font-size: 33px;
-    }
+   }
+  div#info #spantitle{
+    color: brown;
+    font-size: 26px;
+  }
